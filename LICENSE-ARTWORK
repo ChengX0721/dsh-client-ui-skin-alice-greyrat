@@ -1,0 +1,50 @@
+# 美术资源许可 / Artwork License
+
+本文件仅管辖 `assets/runtime/` 与 `preview/` 下的图片（下称「本美术资源」）。
+插件代码（`lib/`、`cordis.patch.yml`、`skin.json`、`package.json` 等）适用
+仓库根目录的 MIT 许可，见 [LICENSE](LICENSE)。
+
+## 权利归属
+
+本美术资源是《无职转生 ～到了异世界就拿出真本事～》的**同人二次创作**。
+原作与角色形象的权利归原作者与相关权利人所有：
+
+- 原作：理不尽な孫の手（Rifujin na Magonote）
+- 角色设计 / 插画：シロタカ（Shirotaka）
+- 动画制作：スタジオバインド（Studio Bind）
+
+**本插件作者不主张本美术资源的任何权利**，也不代表上述任何权利人。
+本美术资源仅在本机以皮肤展示用途被随包分发。
+
+## 随包图片出处
+
+| 用途 | 资源文件（sha256 前缀） | 作者 | 出处 |
+| --- | --- | --- | --- |
+| 对话区左侧立绘 | `6dcc48b8…` | ketsufan | [X @ketsufan1](https://x.com/ketsufan1/status/2106379263717102077) |
+| 对话区右侧立绘 | `dc0ef560…` | wuzhihuijia | [X @wuzhihuijia](https://x.com/wuzhihuijia/status/2108105434376950165) |
+| 侧栏幼年立牌 | `28946d3f…` | qtian | [Pixiv 115319373](https://www.pixiv.net/artworks/115319373) |
+| 浅色场景背景 | `24485d01…` | diaoche_wei | [Pixiv 95460248](https://www.pixiv.net/artworks/95460248) |
+| 深色场景背景 | `d0d9d617…` | wrecklyfan | [Pixiv 141925754](https://www.pixiv.net/artworks/141925754) |
+
+以上原图经由 Safebooru 检索获得，`assets/runtime/` 中的文件是它们经过去底、
+裁切、缩放、调色与 webp 转码后的衍生版本。去底时一并清除了原图边角的作者签名
+与小标记——只保留人物本身占主体的连通区块。
+
+装饰资源 `9d44d6e4…`（魔法阵）与 `1e9601dd…`（余烬纹理）由本插件用程序化方式
+绘制，不包含第三方素材。徽章 `079f935c…` 是侧栏幼年立绘头部的裁切。
+
+## 使用限制
+
+- **禁止商业性使用**本美术资源。
+- 转载、再分发本美术资源时请保留本文件的署名链，并以相同方式共享。
+- 若权利人提出异议，请移除 `assets/runtime/` 与 `preview/` 下的图片；插件的
+  其余部分仍可在 MIT 下独立使用。
+
+## English summary
+
+The images under `assets/runtime/` and `preview/` are non-commercial fan art of
+*Mushoku Tensei: Jobless Reincarnation*. Copyright in the original work and the
+character design belongs to Rifujin na Magonote, Shirotaka and Studio Bind; the
+individual illustrations belong to the artists credited in the table above. No
+rights are claimed by this plugin. Commercial use is prohibited. Redistributions
+must keep this attribution chain and share alike.

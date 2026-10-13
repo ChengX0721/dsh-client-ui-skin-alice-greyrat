@@ -1,0 +1,76 @@
+{
+  "name": "dsh-client-ui-skin-alice-greyrat",
+  "description": "艾莉丝 狂剑王 —《无职转生》主题皮肤：淡绯金配色、魔法阵纹章、对话区双立绘与侧栏幼年立牌。A pale Mushoku Tensei skin for the DeepSeek Harness web GUI.",
+  "icon": "assets/plugin-icon.png",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChengX0721/dsh-client-ui-skin-alice-greyrat.git",
+    "directory": "dsh-client-ui-skin-alice-greyrat"
+  },
+  "homepage": "https://github.com/ChengX0721/dsh-client-ui-skin-alice-greyrat#readme",
+  "bugs": {
+    "url": "https://github.com/ChengX0721/dsh-client-ui-skin-alice-greyrat/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-skin",
+    "plugin",
+    "skin",
+    "theme",
+    "mushoku-tensei",
+    "eris-greyrat",
+    "alice"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh": ">=0.1.7-rc.1 <0.3.0-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh": {
+      "optional": true
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "skin.json",
+    "skin.build.json",
+    "preview",
+    "assets/icons/*.ico",
+    "assets/plugin-icon.png",
+    "assets/runtime",
+    "locale/*.json",
+    "LICENSE",
+    "LICENSE-ARTWORK",
+    "NOTICE",
+    "README.md"
+  ]
+}

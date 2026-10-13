@@ -1,0 +1,33 @@
+{
+  "id": "alice-greyrat",
+  "name": "艾莉丝 狂剑王",
+  "nameEn": "Eris the Sword King",
+  "author": "DSH Skin Workshop",
+  "tagline": "无职转生的红发狂剑王、淡绯金魔法阵与侧栏幼年立牌",
+  "taglineEn": "A pale crimson Sword King, arcane sigils and a young Eris standee",
+  "description": "以《无职转生》艾莉丝·伯雷亚斯·格雷拉特为主题的淡色皮肤：对话区铺魔法大陆场景与两幅立绘，左侧任务栏立一块幼年艾莉丝立牌，并以淡绯金配色、魔法阵纹章和鎏金描边重新装饰侧栏。",
+  "descriptionEn": "A pale Mushoku Tensei skin built around Eris Boreas Greyrat: a soft magic-continent scene with two full-body figures behind the conversation, a young Eris standee in the sidebar, and a rose-and-gold retheme of the sidebar chrome.",
+  "tags": [
+    "anime",
+    "mushoku-tensei",
+    "sword",
+    "rose",
+    "magic-circle",
+    "sidebar",
+    "young"
+  ],
+  "accent": "#c2606a",
+  "bodyAttr": "data-dsh-alice-greyrat",
+  "dshCompatibility": "0.2.0rc2",
+  "package": "dsh-client-ui-skin-alice-greyrat",
+  "wiring": {
+    "id": "ui-skin-alice-greyrat",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.webp",
+    "dark": "preview/dark.webp"
+  },
+  "desktopIcon": "assets/icons/delighted.ico",
+  "order": 12
+}

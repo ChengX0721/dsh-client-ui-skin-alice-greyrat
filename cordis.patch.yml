@@ -1,0 +1,6 @@
+# alice-greyrat skin bundle patch: inserts its public dsh.client entry into the web plugin roster.
+# Mutual exclusion between installed skins is written by the skin manager into the
+# `dsh-skin managed` block of the profile and home patch layers.
+- insert:
+    - id: ui-skin-alice-greyrat
+      name: 'dsh-client-ui-skin-alice-greyrat'

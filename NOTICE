@@ -1,0 +1,43 @@
+# 署名链 / Attribution chain
+
+艾莉丝皮肤（`dsh-client-ui-skin-alice-greyrat`）由以下工作构成。
+
+## 一创 —— 原作与角色设计
+
+- 原作：**理不尽な孫の手**（Rifujin na Magonote）《无职转生 ～到了异世界就拿出真本事～》
+- 角色设计 / 插画：**シロタカ**（Shirotaka）
+- 动画制作：**スタジオバインド**（Studio Bind）
+- 艾莉丝·伯雷亚斯·格雷拉特（Eris Boreas Greyrat）角色形象版权归上述权利人所有
+
+## 二创 —— 本皮肤随包分发的插画
+
+| 用途 | 作者 | 平台 | 链接 |
+| --- | --- | --- | --- |
+| 对话区左右立绘 | ketsufan / wuzhihuijia | X (Twitter) | https://x.com/ketsufan1 · https://x.com/wuzhihuijia |
+| 侧栏幼年立牌 | qtian | Pixiv | https://www.pixiv.net/artworks/115319373 |
+| 浅色场景背景 | diaoche_wei | Pixiv | https://www.pixiv.net/artworks/95460248 |
+| 深色场景背景 | wrecklyfan | Pixiv | https://www.pixiv.net/artworks/141925754 |
+
+以上插画经 Safebooru（safe-rated 图库）检索获得；随包文件为其去底、裁切、
+缩放、调色与 webp 转码后的衍生版本。去底时一并清除了原图边角的作者签名与
+小标记（只保留人物本身占主体的连通区块）。
+
+## 三创 —— 本皮肤
+
+- **DSH Skin Workshop** —— 皮肤代码、淡绯金配色体系、魔法阵与余烬纹理的绘制、
+  对话区舞台与侧栏立牌的布局与收放行为实现（MIT）
+
+## 依赖与参考
+
+- 插件契约、`skin.json` 字段与 `dsh.client` 打包方式参考 DeepSeek Harness 自带的
+  客户端模块系统
+- 设置面板协议（`dsh:skin-customization-*-v2`）参考
+  `@smalltailqwq/dsh-client-ui-skin-deep-whale-manager` 公开的 v2 协议
+- 侧栏内部结构（`regionArea` 会话区、`logoRow` / `panelRow` / `panelGlyph` /
+  `newSession` 等类名、`data-sidebar-collapsed` 收起点）通过读取本机打包后的
+  `@deepseek-ai/dsh-client-ui-sidebar` 与 `dsh-client-ui-layout` 确认
+- 皮肤样式认领规避（`data-plugin-css`）与设计令牌覆盖思路参考
+  `@smalltailqwq/dsh-client-ui-skin-maid-atelier` 在相同宿主版本上的可行做法
+- 侧栏 Q 版立牌的形象风格参考用户提供的两张艾莉丝参考图（仅作参考，未随包分发）
+
+美术资源的使用限制见 [LICENSE-ARTWORK](LICENSE-ARTWORK)，代码许可见 [LICENSE](LICENSE)。
